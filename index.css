@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: linear-gradient(to right, #efefbb, #d4d3dd)
+}
+/* Layaut */
+header{
+    display: flex;
+    margin: 2.5em auto;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border: 1px solid rgb(175, 175, 175);
+    width: 70px;
+    height: 55px;
+    border: none;
+    background-color: transparent
+}
+select{
+    background-color:transparent
+}
+select,
+button{
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    border-radius: 10px; 
+    font-size: 1.25em;
+    font-weight: bold;
+}
+button{
+    padding: 0.5em 1em;
+    font-size: 1.25em;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+}
+/* Classes */
+.hex-codes,
+.color-area{
+    width: 720px;
+    margin: 1em auto;
+    display: flex;
+    
+   
+}
+.color-area{
+    height: 375px;
+
+}
+.hex-codes{
+    align-items: center;
+    gap: 5px;
+}
+.color{
+    
+    width: 120px;
+    height: 100%;
+}
+.color1{
+background-color: rgb(0, 106, 255);
+
+}
+.color2{
+background-color: rgb(5, 62, 207);
+}
+
+.color3{
+    background-color: rgb(0, 18, 63);
+}
+.color4{
+    background-color: rgb(1, 9, 31);
+}
+.color5{
+    background-color: rgb(1, 7, 24);
+}
+.color6{
+    background-color: rgb(0, 0, 0);
+}
+
+.hex-codes p{
+    width: 115px;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0.5em 1em;
+    border: 2px solid black;
+}
